@@ -194,6 +194,7 @@ public class MainActivity extends AppCompatActivity {
             webSettings.setSupportZoom(false);
             webSettings.setGeolocationEnabled(false);
             webSettings.setDomStorageEnabled(false);
+            webSettings.setLoadsImagesAutomatically(false);
 
             // 设置WebViewClient
             webView.setWebViewClient(new WebViewClient() {
